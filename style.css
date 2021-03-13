@@ -1,0 +1,46 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+.wrapper{
+	text-align: justify;
+	font-family: 'Poppins',sans-serif;
+}
+h1{
+	background-color: #a01111;
+	color: white;
+	text-align: center; 
+	margin-top: 0; 
+	padding: 15px 0 15px 0; 	
+}
+h1>span{
+	font-size: 15px;
+	display: block;
+	letter-spacing: 2px;
+}
+p{
+	line-height: 35px;
+	font-size: 20px;
+	letter-spacing: 0.5px;
+	margin:0 20px 0 20px;
+}
+p:not(:last-child){
+	margin-bottom: 35px;
+}
+.my_bttn{
+	height: 45px;
+	width: 45px;
+	background-color: #a01111;
+	border: none;
+	color: white;
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	border-radius: 5px;
+	cursor: pointer;
+	outline: none;
+	display: none;
+}
+.my_bttn:hover{
+	transform: scale(1.05) translateY(-5px);
+}
